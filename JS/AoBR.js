@@ -154,10 +154,11 @@ function updateSubHeading(name){
 
 // }
 
-
 //Function for Side Menu
 function myFunction() {
+   
 
+    document.getElementById('ifLoggedOut').style.opacity = '0';
     var x = document.getElementById("myLinks");
     var menu = document.getElementById("check");
     var menuLabel = document.getElementById("H-menu");
@@ -165,18 +166,48 @@ function myFunction() {
     x.style.visibility='hidden';
     console.log(menu.checked);
     if (menu.checked == true) {
-      // x.style.display = "block";
-      x.style.visibility='visible';
-      x.style.transform = "translateX(0%)";
-      menuLabel.style.transition = "all 0.4s ease-in";
-      menuLabel.style.transform = "translateX(240px)";
-      }
+    // x.style.display = "block";
+    x.style.visibility='visible';
+    x.style.transform = "translateX(0%)";
+    menuLabel.style.transition = "all 0.4s ease-in";
+    menuLabel.style.transform = "translateX(240px)";
+    }
 
     if (menu.checked == false) {
         x.style.visibility='hidden';
         x.style.transform = "translateX(-110%)";
         menuLabel.style.transform = "translateX(0vw)";
-     
-      // x.style.display = "none";
+    
     }
-  }
+    
+    if(localStorage.getItem('sessionValidity')=='false'){
+
+        document.getElementById('ifLoggedOut').style.opacity = '1';
+
+        let nodelist = document.querySelectorAll('.links-sidebar');
+        for(let i =0;i<nodelist.length;i++){
+            nodelist[i].style.display = 'none';
+        }
+       
+        document.getElementById('logOutBtn').style.opacity = '0';
+    }
+
+    if(localStorage.getItem('sessionValidity')=='true'){
+        
+        let nodelist = document.querySelectorAll('.links-sidebar');
+        for(let i =0;i<nodelist.length;i++){
+            nodelist[i].style.display = 'block';
+        }
+        document.getElementById('ifLoggedOut').style.opacity = '0';
+       
+        document.getElementById('logOutBtn').style.opacity = '1';
+    }
+   
+    
+
+// else{
+//     // document.querySelectorAll('links-sidebar').style.display='none';
+//     document.getElementById('ifLoggedOut').style.display = block;
+// }
+
+}

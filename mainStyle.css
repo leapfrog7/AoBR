@@ -55,14 +55,15 @@ h4{
 }
 
 #loginPara{
-    color: rgb(252, 234, 228);
+    color: rgb(136, 48, 18);
+    font-size: 2rem;
     text-align: center;
     font-size: 0.9rem;
 }
 
 #loginSection{
     /* background: linear-gradient(330deg, rgb(22, 228, 217) 0%, rgb(61, 34, 114) 100%); */
-    background: linear-gradient(150deg, rgb(236, 113, 135) 0%, rgb(251, 203, 196) 100%);
+    background: linear-gradient(150deg, rgb(247, 218, 223) 0%, rgb(251, 203, 196) 100%);
     padding: 1rem;
     margin-top: 1rem;
     display: flex;
@@ -85,14 +86,14 @@ h4{
     /* From https://css.glass */
 background: rgba(255, 251, 251, 0.2);
 border-radius: 10px;
-box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+box-shadow: 0 4px 30px rgba(157, 121, 121, 0.1);
 backdrop-filter: blur(10px);
 -webkit-backdrop-filter: blur(5px);
 border: 1px solid rgba(255, 255, 255, 0.3);
 }
 
 #loginSubSection label{
-    color: azure;
+    color: rgb(174, 110, 99);
 }
 
 #loginSubSection input{
@@ -129,7 +130,7 @@ border: 1px solid rgba(255, 255, 255, 0.3);
 
 .subscribeSection{
     /* background: linear-gradient(330deg, rgb(22, 228, 217) 0%, rgb(61, 34, 114) 100%); */
-    background: linear-gradient(150deg, rgb(236, 113, 135) 0%, rgb(251, 203, 196) 100%);
+    background: linear-gradient(150deg, rgb(247, 218, 223) 0%, rgb(251, 203, 196) 100%);
     color: rgb(251, 230, 230);
     padding: 2rem 1rem;
     text-align: center;
@@ -199,7 +200,7 @@ iframe{
 
   .cardTitle{
     font-size: 1rem;
-    padding-top: 1rem;
+    padding-top: 0.5rem;
     display: flex;
     gap: 0.3rem;
     font-weight: bold;
@@ -210,6 +211,7 @@ iframe{
   .cardDescription{
     font-size: 0.8rem;
     color: #be5959;
+    margin-bottom: 1rem;
   }
 
   .card a{
@@ -435,7 +437,11 @@ background: linear-gradient(to right, rgb(252, 230, 236), rgba(249, 249, 249, 0.
   font-size: 2rem;
 }
 
-
+#ifLoggedOut{
+ 
+  color: rgb(123, 64, 42);
+  font-size: 1.5rem;
+}
 /* SIDE MENU CSS ENDS */
 
 /* ****Modal button****** */
