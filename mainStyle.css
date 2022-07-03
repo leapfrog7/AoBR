@@ -146,6 +146,13 @@ iframe{
     font-size: 0.8rem;
 }
 
+.subscribePara{
+  font-size: 1rem;
+  padding: 1rem;
+  background-color: #fdeded;
+  /* color: #921e1e; */
+}
+
 #btn_pricing{
     width: 60%;
     margin: 0.5rem auto;

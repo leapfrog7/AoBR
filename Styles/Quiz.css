@@ -2,7 +2,7 @@
 footer{
     /* background: linear-gradient(330deg, rgba(21,148,142,1) 0%, rgba(39,3,113,1) 100%); */
     padding: 0.8em 0.8em;
-    margin:1rem auto;
+    margin:0 auto;
     color: white;
    position: fixed;
    left: 0;
