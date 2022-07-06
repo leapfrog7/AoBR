@@ -158,6 +158,7 @@ function goNext(){
             Question_Counter-=1;
 
             calculateScore();
+            
         }
 
        
@@ -510,9 +511,10 @@ function setResult(){
     result.style.fontSize = "0.9rem";
     
     
-    result.style.transition = 'all 1s ease-in';
+    result.style.transition = 'all 200ms ease-in';
     result.style.opacity = 0;
     setTimeout(()=>{result.style.opacity = 1;},700); 
+    window.scrollBy(0, 500);
 }
 
 function evaluationRemarks(right){

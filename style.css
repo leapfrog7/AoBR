@@ -5,6 +5,10 @@
     margin: 0;
     padding: 0;
 }
+
+html {
+    scroll-behavior: smooth;
+  }
 body{
     font-family: 'Quicksand', sans-serif;
     font-size: 1.2rem;
@@ -137,7 +141,7 @@ header {
     align-items: center;
     gap: 1rem;
     font-size: 0.9rem;
-    background: linear-gradient(0deg, rgb(255, 255, 255) 0%, rgba(254,231,237,1) 45%, rgba(255,176,192,1) 100%);
+    background: linear-gradient(0deg, rgb(255, 255, 255) 0%, rgb(255, 212, 224) 45%, rgb(255, 238, 242) 100%);
     padding: 2rem 0.5rem;
     
 }
@@ -149,6 +153,7 @@ header {
     align-items: center;
     gap: 1rem;
     font-size: 0.9rem; 
+    
 }
 
 .scoreArea{
