@@ -493,7 +493,16 @@ background: linear-gradient(to right, rgb(252, 230, 236), rgba(249, 249, 249, 0.
     cursor: pointer;
   }
 
+  @media only screen and (min-width: 1000px){
+    .modal-content{
+      width: 45%;
 
+    }
+   
+    
+  } 
+
+   
 /* ********UTILITIES***********/
 
 .my-0{

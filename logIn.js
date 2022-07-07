@@ -180,10 +180,12 @@ function isUserValid(){
 function openModal(){
     var modal = document.getElementById("myModal");
     modal.style.display = "block";
+    document.getElementById('menuSide1').style.zIndex = 0; //to make sure the hamburger menu doesn't come over the modal
 }
 
 function closeModal(){
     var modal = document.getElementById("myModal");
+    document.getElementById('menuSide1').style.zIndex = 2;
     modal.style.display = "none";
 }
 
