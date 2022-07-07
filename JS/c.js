@@ -11,7 +11,7 @@ var Global_C =[
     ['trial','trial7',0],
     ['archa','arch9755',1],
     ['yatin','yat105110',1],
-    ['trial77','aobr125152']
+    ['trial77','aobr125152',1]
 
     
 
