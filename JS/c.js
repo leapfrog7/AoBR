@@ -12,7 +12,9 @@ var Global_C =[
     ['archa','arch9755',1],
     ['yatin','yat105110',1],
     ['trial77','aobr125152',1],
-    ['kanika96','kanika5750',1]
+    ['kanika96','kanika5750',1],
+    ['harpreet98','harpreet5752',1],
+    ['anamika95','anamika5652',1]
 
     
 
