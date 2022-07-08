@@ -149,8 +149,11 @@ iframe{
 .subscribePara{
   font-size: 1rem;
   padding: 1rem;
-  background-color: #fdeded;
-  /* color: #921e1e; */
+  /* background-color: #ffe1e1; */
+  background: linear-gradient(175deg, rgba(255,210,210,1) 0%, rgba(255,255,255,1) 95%);
+  color: #8a2b2b;
+  
+  
 }
 
 #btn_pricing{
@@ -491,6 +494,40 @@ background: linear-gradient(to right, rgb(252, 230, 236), rgba(249, 249, 249, 0.
     color: #000;
     text-decoration: none;
     cursor: pointer;
+  }
+
+  
+
+  .step-title{
+    text-align: center;
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+    color: #6e1111;
+    text-shadow: 1px 1px 2px #501818;
+   
+
+  }
+  .steps{
+    padding: 0.8rem 0.5rem;
+    display: flex;
+    gap: 5px;
+  }
+
+  #upiDetails{
+    color: #6c1616;
+  }
+
+  #copyBtn{
+    border: none;
+    border-color: rgb(141, 26, 26);
+    border: solid 1px;
+    background: white;
+    color: #bd3131;
+    width: 60px;
+    height: 25px;
+    margin: 1px 8px;
+    padding: 4px;
+    border-radius: 4px;
   }
 
   @media only screen and (min-width: 1000px){

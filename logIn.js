@@ -186,6 +186,9 @@ function openModal(){
 function closeModal(){
     var modal = document.getElementById("myModal");
     document.getElementById('menuSide1').style.zIndex = 2;
+    document.getElementById('copyBtn').innerHTML = "Copy";
+    document.getElementById('copyBtn').style.background = "white";
+    document.getElementById('copyBtn').style.color = "firebrick";
     modal.style.display = "none";
 }
 
@@ -245,4 +248,25 @@ function myFunction() {
     //     document.getElementById('ifLoggedOut').style.display = block;
     // }
 
+  }
+
+
+  function copyUPI(){
+
+        /* Get the text field */
+    var copyText = document.getElementById("upiDetails");
+
+    /* Select the text field */
+    //copyText.innerHTML
+    // copyText.setSelectionRange(0, 99999); /* For mobile devices */
+
+    /* Copy the text inside the text field */
+    navigator.clipboard.writeText(copyText.innerHTML);
+
+    /* Alert the copied text */
+    // alert("Copied the text: " + copyText.innerHTML);
+
+    document.getElementById('copyBtn').style.background = "#1d6e14";
+    document.getElementById('copyBtn').style.color = "white";
+    document.getElementById('copyBtn').innerHTML = "Copied";
   }
