@@ -17,16 +17,22 @@ var Global_C =[
     ['rao14','rao5154',1],
     ['vineet94','vineet5755',1],
     ['rao86','rao4950',1],
+
     ['priyanka81','priyanka4954',1],
     ['lekhraj90','lekhraj5753',1],
     ['praveen87','praveen5755',1],
     ['khatri42','khatri5151',1],
+
+    ['priyanka81','priyanka4954',1],
+
 
 
 
 
 
     ['trial','trial7',0]
+    
+    
     
     
     
