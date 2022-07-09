@@ -23,7 +23,7 @@ var Global_C =[
     ['praveen87','praveen5755',1],
     ['khatri42','khatri5151',1],
 
-    ['priyanka81','priyanka4954',1],
+    
 
 
 
