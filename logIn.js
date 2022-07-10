@@ -87,11 +87,19 @@ function checkValidity(){
 
                 if(uName == Global_C[i][0]){
                     if(nPwd == Global_C[i][1]){
-                        document.getElementById('msgOnLogin').style.display='block';
-                        document.getElementById('msgOnLogin').innerHTML = "Logged in Successfully!"
-                        showButtons();
-                        isValidPassword = true;
-                        hideAfterLogIn();
+
+                        if(Global_C[i][2]==1){
+                            document.getElementById('msgOnLogin').style.display='block';
+                            document.getElementById('msgOnLogin').innerHTML = "Logged in Successfully!"
+                            showButtons();
+                            isValidPassword = true;
+                            hideAfterLogIn();
+                        }
+                        if(Global_C[i][2]==2){
+                            isValidPassword = true;
+                            alert("The trial version has ended! Subscribe to access the modules!");
+                        }
+                        
                     }
                 }
             
