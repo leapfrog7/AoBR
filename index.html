@@ -25,6 +25,7 @@
     <script src="questionDB.js"></script>
     <script src="logIn.js"></script>
     <script src="JS/c.js"></script>
+    <script src="JS/common.js"></script>
     <title>LeapFrog - AoBR</title>
 
     
@@ -32,22 +33,7 @@
     
 </head>
 <body>
-    <!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-N947LZT"
-    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-    <!-- End Google Tag Manager (noscript) -->
-
-	
-	<!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-})(window,document,'script','dataLayer','GTM-N947LZT');</script>
-<!-- End Google Tag Manager -->
-	
-</head>
-<body>
+   
     
 	<!-- Google Tag Manager (noscript) -->
 <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-N947LZT"
@@ -331,6 +317,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         document.getElementById('btn_pricing').addEventListener('click',openModal);
         document.getElementsByClassName("close")[0].addEventListener('click',closeModal);
         document.getElementById('H-menu').addEventListener('input',myFunction);
+
+        document.addEventListener("touchstart", startTouch, false);
+        document.addEventListener("touchmove", moveTouch, false);
         // document.addEventListener('click', check);
         // document.getElementById('next').addEventListener('click',goNext);
         // document.getElementById('previous').addEventListener('click',goPrevious);

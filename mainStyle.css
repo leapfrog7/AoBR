@@ -191,7 +191,7 @@ iframe{
 }
 
 .card {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    box-shadow: 2px 4px 8px 0 rgba(0, 0, 0, 0.2);
     max-width: 300px;
     margin: auto;
     text-align: center;
@@ -535,6 +535,24 @@ background: linear-gradient(to right, rgb(252, 230, 236), rgba(249, 249, 249, 0.
       width: 45%;
 
     }
+
+    .card{
+      transform: translateY(5px);
+      box-shadow: 2px 4px 8px 0 rgba(0, 0, 0, 0.2);
+      transition: transform 250ms linear, box-shadow 250ms linear;
+    }
+
+    .card:hover{
+      /* box-shadow: 0 5px 0 rgb(255, 173, 173); */
+      transform: translateY(-5px);
+      
+      box-shadow: 10px 10px 5px 0 rgba(0, 0, 0, 0.2);
+
+      transition: transform 250ms linear,
+                  box-shadow 250ms linear;
+    }
+
+   
    
     
   } 

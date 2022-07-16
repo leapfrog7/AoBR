@@ -1,6 +1,16 @@
 <!DOCTYPE html>
 <html>
 <head>
+
+     <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-N947LZT');</script>
+    <!-- End Google Tag Manager -->
+
+
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -15,9 +25,15 @@
     <!-- <link rel="stylesheet" href="Styles/AoBR.css"> -->
     <script src="JS/AoBR_PremiumQuiz.js"></script>
     <script src="JS/AoBR_DB_Premium.js"></script>
+    <script src="JS/common.js"></script>
     <title>LeapFrog - AoBR</title>
 </head>
 <body>
+
+    <!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-N947LZT"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
     
     <!-- SIDE MENU -->
 
@@ -68,7 +84,7 @@
     </header>
 
     <section class="main-content">
-        <p style="margin: 1rem 0;">The subject mentioned below is allocated to which Ministry/Department:</p>
+        <p style="margin: 1rem 0;">The subject mentioned below is allocated to which Ministry / Department:</p>
        <div class="question" id="questionTitle"> 
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit velit laborum architecto!
        </div>
@@ -176,7 +192,9 @@
         document.getElementById('tryAgain').addEventListener('click',loadAgain); 
         document.getElementById('H-menu').addEventListener('input',myFunction);
      //   document.getElementById('showTheOptions').addEventListener('click',makeVisible); 
-        
+        document.addEventListener("touchstart", startTouch, false);
+        document.addEventListener("touchmove", moveTouch, false);
+
 </script>
 </body>
 </html>
