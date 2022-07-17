@@ -530,6 +530,61 @@ background: linear-gradient(to right, rgb(252, 230, 236), rgba(249, 249, 249, 0.
     border-radius: 4px;
   }
 
+  .connectWithUs{
+    margin-top: 1rem;
+    padding: 1rem 1rem;
+    /* margin: auto; */
+    font-size: 1rem;
+    /* border: solid 1px; */
+    text-align: center;
+    transform: translateY(10px);
+    display: flex;
+    flex-direction: column;
+    gap: 0.7rem;
+
+    background: rgb(214,214,214);
+background: linear-gradient(180deg, rgb(252, 239, 239) 0%, rgba(254,254,254,1) 100%);
+   
+  }
+
+  .connectWithUs p{
+    text-align: left;
+    
+  }
+
+  .connectWithUs_title{
+    display: flex;
+    color: rgb(110, 110, 110);
+    text-shadow: 4px 4px 6px #c7b2b2;
+    line-height: 2rem;
+  }
+
+  .socialItems{
+    padding: 0 10px;
+    font-size: 0.8rem;
+    /* border: solid 1px; */
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    
+  }
+
+  .socialItems a{
+    font-size: 0.8rem;
+    color: #8a0e0e;
+    
+  }
+.sideBar_Connect{
+  margin-top: 30px;
+  color: rgb(152, 83, 83);
+  background: #585858;
+  background: linear-gradient(180deg, rgb(255, 207, 207) 0%, rgb(249, 234, 234)100%);
+  
+}
+#sideBar_Connect a{
+  color: rgb(108, 108, 108);
+}
+
   @media only screen and (min-width: 1000px){
     .modal-content{
       width: 45%;
