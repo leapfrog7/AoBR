@@ -517,6 +517,21 @@ background: linear-gradient(to right, rgb(252, 230, 236), rgba(249, 249, 249, 0.
     color: #6c1616;
   }
 
+  .upiAppLink{
+    margin: 15px auto 0 auto;
+    padding: 5px;
+    border: solid 1px firebrick;
+    text-align: center;
+    background-color: #8a0e0e;
+    width: 80%;
+    
+   
+  }
+
+  .upiAppLink a{
+    color: rgb(245, 223, 223);
+  }
+
   #copyBtn{
     border: none;
     border-color: rgb(141, 26, 26);
@@ -607,7 +622,9 @@ background: linear-gradient(180deg, rgb(252, 239, 239) 0%, rgba(254,254,254,1) 1
                   box-shadow 250ms linear;
     }
 
-   
+   .upiAppLink{
+    display: none;
+   }
    
     
   } 
