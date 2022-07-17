@@ -523,13 +523,23 @@ background: linear-gradient(to right, rgb(252, 230, 236), rgba(249, 249, 249, 0.
     border: solid 1px firebrick;
     text-align: center;
     background-color: #8a0e0e;
-    width: 80%;
+    /* width: 80%; */
+    display: flex;
+    justify-content: center;
     
    
   }
 
   .upiAppLink a{
     color: rgb(245, 223, 223);
+    
+  }
+
+  .iconsUPI{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    
   }
 
   #copyBtn{
