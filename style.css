@@ -52,6 +52,19 @@ header {
     align-items: baseline;
  }
 
+ #gotoHome{
+    padding: 0.5rem 1rem;
+    border: solid 2px firebrick;
+    margin-left:auto;
+    margin-top: 0.5rem;
+    border: none;
+    width: 80px;
+    margin-left: 75%;
+    /* border-right: solid 15px white; */
+    background-color: #92303f;
+    color: white;
+ }
+
  .main-content{
      margin:1.5rem 0.5rem;
      font-size: 1.1rem;
@@ -211,7 +224,9 @@ footer{
     
   }
 
- 
+ .h1Tag{
+    display: none;
+ }
 
 @media only screen and (min-width: 768px){
 
@@ -223,6 +238,11 @@ footer{
 
     #myLinks{
         width: 70%;
+    }
+
+    #gotoHome{
+        width: 80px;
+        margin-left: 80%;
     }
 
    

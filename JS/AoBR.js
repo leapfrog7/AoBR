@@ -14,6 +14,13 @@ function loadMDO(){
 
     let mdoDropDown = document.getElementById("MDO_DropDown");
 
+    if(localStorage.getItem('sessionValidity')=='true'){
+        document.getElementById('gotoHome').style.display= 'none';
+    }
+    else{
+        document.getElementById('gotoHome').style.display= 'block';
+    }
+
     for(let i =0;i<mdoCount;i++){
 
         let option = document.createElement('option');
