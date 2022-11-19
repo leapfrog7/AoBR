@@ -541,25 +541,27 @@ function evaluationRemarks(right){
         case 0:
         case 1:
         case 2:
-            remarks = 'Mood hi khraab kar dia' +'&#129326';
+            remarks = 'Mood hi khraab kar dia... aise toh nhi ho payga... refund hi lelo' +'&#129326';
             break;
         case 3:
         case 4:
-            remarks = 'Not good... You need to go through AoBR properly? ' + '&#128530';
+            remarks = 'Thoda pehle padh lo ap... You are highly encouraged to go through AoBR properly? ' + '&#128530';
             break;
         
         case 5:
         case 6:
-            remarks = "Okay but still need to work harder" + '&#128528';
+            remarks = "Thik thaak hi hai bas... there's a lot of room for improvement" + '&#128528';
             break;
         
         case 7:
+            remarks = "Score toh thik hai but baaki log toh 9 ya 10 la rhe hai. Thoda sa effort aur laga do bas "+ '&#128591';
+            break;
         case 8:
             remarks = "Good work... keep it up!!" + '&#128527';
             break;
         
         case 9:
-            remarks = "Excellent job!!!" + '&#128524';
+            remarks = "Excellent Work!!!" + '&#128524';
             break;
         case 10:
             remarks = 'Perfect!!!' + '&#128293'+ '&#128293'+ '&#128293';
