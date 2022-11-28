@@ -32,7 +32,7 @@ var Global_C =[
     ['dolly102','dolly45653',1],
     ['saghir168','saghir65656',1],
     ['kumar35','kumar25554',1],
-    ['harish75','harish55752',1],
+    ['harish75','harish55752',0],
     ['ankit67','ankit14849',1],
     
     ['nidhi133','nidhi35754',1],
