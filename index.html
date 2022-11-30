@@ -215,6 +215,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                     Unlimited AoBR Quiz to test your retention capacity and for practicing before exam. 
                 </div>
                 <a href="AoBR_Premium.html" id="quiz_AOBR">Go To Quiz</a>
+                <button id="subQuizBtn" class="subscribeBtn"> Click to Subscribe</button>
                
             </div>
 
@@ -229,6 +230,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                 </div>
 
                 <a href="AoBR_lookUp.html" id="lookup_AOBR">Go To Lookup</a>
+                <button id="subQuizBtn1" class="subscribeBtn"> Click to Subscribe</button>
             </div>
         </div>
 
@@ -377,6 +379,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         document.getElementById('signIn').addEventListener('click',checkValidity);
         document.getElementById('signIn').addEventListener('keydown',checkValidity1);
         document.getElementById('btn_pricing').addEventListener('click',openModal);
+        document.getElementById('subQuizBtn').addEventListener('click',openModal);
+        document.getElementById('subQuizBtn1').addEventListener('click',openModal);
         document.getElementsByClassName("close")[0].addEventListener('click',closeModal);
         document.getElementById('H-menu').addEventListener('input',myFunction);
 

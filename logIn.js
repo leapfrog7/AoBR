@@ -19,7 +19,11 @@ function hideButtons(){
     list = document.getElementById('list_AOBR');
     quiz = document.getElementById('quiz_AOBR');
     lookup = document.getElementById('lookup_AOBR');
+    subButton1 = document.getElementById('subQuizBtn');
+    subButton2 = document.getElementById('subQuizBtn1');
 
+    subButton1.style.display='block';
+    subButton2.style.display='block'
     // list.style.display = 'none';
     quiz.style.display = 'none';
     lookup.style.display = 'none';
@@ -30,6 +34,8 @@ function showButtons(){
     quiz = document.getElementById('quiz_AOBR');
     lookup = document.getElementById('lookup_AOBR');
 
+    subButton1.style.display = 'none';
+    subButton2.style.display = 'none';
     list.style.display = 'block';
     quiz.style.display = 'block';
     lookup.style.display = 'block';
