@@ -121,6 +121,7 @@ border: 1px solid rgba(255, 255, 255, 0.3);
     color: rgb(250, 236, 233);
     border-radius: 5px;
     margin-top: 10px;
+    cursor: pointer;
 }
 
 #forgotPassword a{
@@ -167,7 +168,7 @@ iframe{
     border-radius: 5px;
     font-size: 0.9rem;
     margin-top: 1.5rem;
-    
+    cursor: pointer;
 }
 
 .pricingDetails{
